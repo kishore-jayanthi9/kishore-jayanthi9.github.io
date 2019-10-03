@@ -70,7 +70,6 @@ li,a{
   	background-attachment: fixed; */
 	 
 	 font-family: "Montserrat", sans-serif;
-	color: #000000;
 	text-align: justify;  /* For Edge */
   	text-align-last: center;
 	 
@@ -83,7 +82,7 @@ li,a{
 } 
 .description {
 	display: block;
-    font-family: "Montserrat", sans-serif;
+    	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	color: #000000;
@@ -95,7 +94,7 @@ li,a{
 	text-align-last: center;
 } 
 #skills.skills{
-	background-color: #000000;
+	
 	background-size: cover;
   	background-attachment: fixed;
 }  
