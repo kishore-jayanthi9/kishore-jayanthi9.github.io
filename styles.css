@@ -65,11 +65,10 @@ li,a{
 
  #about.about{
 	
-/* 	background-color: #000000;
+	background-color: #FFFFFF;
 	background-size: cover;
-  	background-attachment: fixed; */
-	 
-	 font-family: "Montserrat", sans-serif;
+  	background-attachment: fixed; 
+	font-family: "Montserrat", sans-serif;
 	text-align: justify;  /* For Edge */
   	text-align-last: center;
 	 
