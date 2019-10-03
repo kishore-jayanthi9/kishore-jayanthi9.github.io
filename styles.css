@@ -65,12 +65,15 @@ li,a{
 
  #about.about{
 	
-	background-color: #FFFFFF;
+/* 	background-color: #FFFFFF;
 	background-size: cover;
   	background-attachment: fixed; 
 	font-family: "Montserrat", sans-serif;
 	text-align: justify;  /* For Edge */
-  	text-align-last: center;
+/*   	text-align-last: center; */ */
+	 
+	 font-family: "Montserrat", sans-serif;
+	 color: #000000;
 	 
 }  
 .heading{
