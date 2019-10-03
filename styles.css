@@ -1,50 +1,138 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+/* body{
+  background-image: url("Mainpic.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+  
+ }
+ */
 
-*{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	background-color: #24252A;
-	}
-
-li,a {
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color: #edf0f1;
-	text-decoration: none;
-	}
 header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px 10%;
-	background-image:url("Mainpic.jpg");
+/* 	background-image:url("Mainpic.jpg");
   	background-size: cover;
-  	background-attachment: fixed;
-	}
+  	background-attachment: fixed;*/
+}
+li,a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+}
 .logo{
 	cursor: pointer;
 	float: left;
-    padding: 12px 15px;
-    font-size: 19px;
-    line-height: 21px;
-    height: 62px;
-    max-width: 220px;
-    display: table;
+    font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
 	}	
-.nav__links{
+.logo:hover{
+	color: #0088a9;
+}	
+.nav-links{
 	list-style: none;
 }
-.nav__links li{
+.nav-links li{
 	display: inline-block;
 	padding: 0px 20px;
 }
-.nav__links li a{
+.nav-links li a{
 	transition: all 0.3s ease 0s;
 }
-.nav__links li a:hover{
+.nav-links li a:hover{
 	color: #0088a9;
 }
+.middle{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+	text-align: justify;  /* For Edge */
+  	text-align-last: center;
+}	
+.Linkedin{
+	 	cursor: pointer;
+        border: 2px solid black;
+  		padding: 10px;
+  		border-radius: 25px;
+}
 
+/* #about.about{
+	
+	background-color: #000000;
+	background-size: cover;
+  	background-attachment: fixed;
+}  */
+.heading{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+	text-align: justify;
+	text-align-last:center;
+} 
+.description {
+	display: block;
+    font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000000;
+	text-align: justify;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align-last: center;
+} 
+/* #skills.skills{
+	background-color: #000000;
+	background-size: cover;
+  	background-attachment: fixed;
+}    */
+#resume.resume{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+	text-align: justify;  /* For Edge */
+  	text-align-last: center;
+ } 
+.myresume{
+		
+		cursor: pointer;
+        border: 2px solid black;
+  		padding: 10px;
+  		border-radius: 25px;
+}
+#work-experience.work-experience{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+}
+.sub-heading{
+	text-align: justify; 
+  	text-align-last: center;
+	
+}
+.time{
+	text-align: justify;  
+  	text-align-last: center;
+}
+#contact.contact{
+	font-family: "Montserrat", sans-serif;
+	color: #000000;
+}
+.contact-info{
+	text-align: justify; 
+  	text-align-last: center;
+}
+.phone-number{
+	text-align: justify; 
+  	text-align-last: center;	
+}
+.email{
+	text-align: justify; 
+  	text-align-last: center;
+}
  
