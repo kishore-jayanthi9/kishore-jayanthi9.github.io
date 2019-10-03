@@ -63,12 +63,12 @@ li,a{
   		border-radius: 25px;
 }
 
-/* #about.about{
+ #about.about{
 	
 	background-color: #000000;
 	background-size: cover;
   	background-attachment: fixed;
-}  */
+}  
 .heading{
 	font-family: "Montserrat", sans-serif;
 	color: #000000;
@@ -83,16 +83,16 @@ li,a{
 	color: #000000;
 	text-align: justify;
 	margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    	margin-block-end: 1em;
+    	margin-inline-start: 0px;
+    	margin-inline-end: 0px;
 	text-align-last: center;
 } 
-/* #skills.skills{
+#skills.skills{
 	background-color: #000000;
 	background-size: cover;
   	background-attachment: fixed;
-}    */
+}  
 #resume.resume{
 	font-family: "Montserrat", sans-serif;
 	color: #000000;
